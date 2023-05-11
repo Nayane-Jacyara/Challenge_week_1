@@ -48,7 +48,6 @@ public class Employee {
         this.discount = discount;
     }
 
-
     public void calculate() {
         double bonusOrDiscount = 0;
 
@@ -66,6 +65,5 @@ public class Employee {
     System.out.println("Liquid Salary:" + liquidSalary);
     this.bonusOrDiscount = bonusOrDiscount;
     }
-
 }       
 
