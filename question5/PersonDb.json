@@ -1,0 +1,21 @@
+{
+  "_id": {
+    "$oid": "645d8417cb4b745085d911fa"
+  },
+  "Object": "Person",
+  "name": "Nayane",
+  "age": "20",
+  "phone": "(87)99988-6543",
+  "height": 1.54,
+  "email": "nayane@.gmail.com",
+  "cpf": "123.456.678-86",
+  "birthday": "Thu May 11 2023 21:11:03 GMT-0300 (Horário Padrão de Brasília)",
+  "address": {
+    "zip": "55432-000",
+    "street": "Rua Primeiro De Abril",
+    "complement": "Center",
+    "city": "Capoeiras",
+    "state": "Pernambuco",
+    "country": "Brazil"
+  }
+}

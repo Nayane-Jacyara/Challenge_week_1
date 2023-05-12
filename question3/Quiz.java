@@ -23,7 +23,8 @@ public class Quiz{
             
             System.out.print(questionsAnswers[i][0] + " ");
             String answers = scanner.nextLine();
-            
+            scanner.close();
+
             if (answers.equalsIgnoreCase(questionsAnswers[i][1])) {
                 System.out.println("Right answer!");
                 hits++;
@@ -32,7 +33,6 @@ public class Quiz{
                 erros++;
             }
         }
-        scanner.close();
         
         System.out.println("End of quiz!");
         System.out.println(name + "\nhists: " + hits + "\nerrou: " + erros);
