@@ -17,10 +17,11 @@ public class Validate {
  
             System.out.print("Enter the employee salary " + (i + 1)+ " : ");
             double salary = scanner.nextDouble();
-            scanner.close();
+            
 
             employees[i] = new Employee(name,salary,i);
         }
+        scanner.close();
         
         for (int i = 0; i < numEmployees; i++) {
             Employee employee = employees[i];
